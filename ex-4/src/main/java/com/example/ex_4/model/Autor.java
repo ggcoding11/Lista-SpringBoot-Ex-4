@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.time.LocalDate;
 import java.time.LocalTime;
 
 @Getter
@@ -26,5 +27,5 @@ public class Autor {
     private String nacionalidade;
 
     @Column(name = "coluna_data_nascimento")
-    private LocalTime dataNascimento;
+    private LocalDate dataNascimento;
 }
